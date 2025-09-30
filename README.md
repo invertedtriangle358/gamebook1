@@ -1,3 +1,3 @@
-# gamebook2
+# Nostr gamebook
 
-Nostr game book vol 2
+Nostr gamebook vol.1
