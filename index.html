@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>NostrゲームブックVol.2</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <link rel="stylesheet" href="novelgame.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="container">
+<div id="log"></div>
+<div id="game">
+  <h1>Nostr GAME BOOK Vol.2 </h1>
+    <p class="copylight">inverted.triangle358 © 2025</p>
+  <!-- main.js が自動でタイトル画面とスタートボタンを出す -->
+  <div id="text"></div>
+  <div id="choices"></div>
+</div>
+  <footer>
+  </footer>
+  <!-- Nostr署名用ライブラリ -->
+  <script src="https://unpkg.com/nostr-tools@1.17.0/lib/nostr.bundle.js"></script>
+  <!-- ゲーム本体JS -->
+  <script type="module" src="./JS/main.js"></script>
+</body>
+</html>
